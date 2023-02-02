@@ -1,0 +1,190 @@
+:root {
+    --bg-pagina: #D7C0AE;
+    --cor-letras: white;
+    --bg-outros: #B7C4CF;
+    --fonte: 'Times New Roman', Times, serif;
+    --cor-letras-hover: #967e76;
+    --bg-botao: #967e76;
+    --cor-botao: white;
+}
+
+body {
+    background-color: var(--bg-pagina);
+    color: var(--cor-letras);
+    font-family: var(--fonte);
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    margin: 0;
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem{
+    width: 8em;
+    margin-left: 3em;
+}
+
+.cabecalho_menu_links{
+    margin-right: 15em;
+}
+
+.cabecalho_link{
+    margin: 1em;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--cor-letras);
+    font-weight: 600;
+}
+
+.cabecalho_link:hover{
+    color: var(--cor-letras-hover);
+}
+
+/* Sobre mim */
+
+.sobre{
+    display: flex;
+    margin: 5em;
+}
+
+.secao_sobre {
+    margin-top: 5em;
+}
+
+.titulo_sobre{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.texto_sobre{
+    margin:0 8em 3em 0;
+    font-size: 20px;
+}
+
+.botao_sobre{
+    background: var(--bg-botao);
+    color: var(--cor-botao);
+    padding: 1em;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.botao_sobre:hover {
+    background-color: var(--bg-outros);
+    color: var(--cor-letras-hover);
+}
+
+.imagem_sobre{
+    width: 20em;
+}
+
+/* Projetos */
+
+.projetos{
+    margin: 5em;
+}
+
+.tecnologias{
+    margin-bottom: 1em;
+}
+
+.titulo_projetos {
+    font-size: 25px;
+    text-align: center;
+}
+
+.tecnologia-utilizada{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icones_tecnologias{
+    margin: 1em 0;
+    font-size: 3em;
+}
+
+.icones_tecnologias:hover {
+    color: var(--bg-outros);
+}
+
+.projetos_realizados{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 18rem;
+    height: 20rem;
+    margin-top: 3em;
+    border: 1px solid var(--bg-botao);
+}
+
+.card_img-top{
+    width: 16rem;
+    height: 10rem;
+    margin: 1em;
+    
+}
+
+.corpo_card {
+    font-size: 18px;
+}
+
+.texto_card{
+    margin: 1em 0.5em 2em 0.5em;
+}
+
+.btn_projetos{
+    text-decoration: none;
+    color: var(--cor-letras);
+    background-color: var(--bg-botao);
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.btn_projetos:hover {
+    background-color: var(--bg-outros);
+    color: var(--cor-letras-hover);
+}
+
+.rodape {
+    background-color: var(--bg-outros);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.imagem_rodape{
+    height: 10em;
+}
+
+.rodape_contatos, .rodape_projetos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.titulo_rodape{
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn_rodape{
+    margin: 0.5em 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--cor-letras);
+}
+
+.btn_rodape:hover{
+    color: var(--cor-letras-hover);
+}
