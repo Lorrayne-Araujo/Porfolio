@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+
+    /* CABECALHO */
+    .cabecalho_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho_imagem {
+        width: 5em;
+        margin-left: 1em;
+    }
+
+    .cabecalho_menu_links {
+        display: flex;
+        margin-left: 15em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho_link:active {
+        color: var(--cor-letras-hover);
+    }
+
+    .menu_projetos {
+        font-size: 14px;
+    }
+
+    .menu_sobre {
+        width: 6em;
+        font-size: 14px;
+    }
+
+    .menu_contato {
+        font-size: 14px;
+    }
+
+    /* Projetos */
+
+    .projetos {
+        margin: 3em;
+    }
+
+    .titulo_projetos {
+        font-size: 25px;
+        margin-bottom: 0.5em;
+    }
+
+    .projeto_principal {
+        display: flex;
+        margin: 3em 0.5em;
+    }
+
+    .imagem_projetos {
+        width: 15em;
+        height: 8em;
+    }
+
+    .conteudo_projetos {
+        margin: 0 3em;
+    }
+
+    .titulo_dos_projetos {
+        font-size: 18px;
+        width: 7em;
+    }
+
+    .texto_projetos {
+        font-size: 14px;
+        margin-bottom: 2em;
+    }
+
+    .btn_projetos {
+        font-size: 8px;
+    }
+}

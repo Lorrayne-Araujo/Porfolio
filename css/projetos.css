@@ -1,0 +1,139 @@
+:root {
+    --bg-pagina: #D7C0AE;
+    --cor-letras: white;
+    --bg-outros: #B7C4CF;
+    --fonte: 'Times New Roman', Times, serif;
+    --cor-letras-hover: #967e76;
+    --bg-botao: #967e76;
+    --cor-botao: white;
+}
+
+body {
+    background-color: var(--bg-pagina);
+    color: var(--cor-letras);
+    font-family: var(--fonte);
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    margin: 0;
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem{
+    width: 8em;
+    margin-left: 3em;
+}
+
+.cabecalho_menu_links{
+    margin-right: 15em;
+}
+
+.cabecalho_link{
+    margin: 1em;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--cor-letras);
+    font-weight: 600;
+}
+
+.cabecalho_link:hover{
+    color: var(--cor-letras-hover);
+}
+
+/* Projetos */
+
+.projetos {
+    margin: 5em;
+    text-align: center;
+}
+
+.titulo_projetos{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+.projeto_principal{
+    display: flex;
+    margin: 10em 1em;
+}
+
+.imagem_projetos{
+    width: 25em;
+}
+
+.conteudo_projetos{
+    margin: 0 10em;
+}
+
+.titulo_dos_projetos{
+    font-size: 25px;
+    margin-bottom: 1.5em;
+}
+
+.texto_projetos{
+    margin-bottom: 5em;
+    font-size: 20px;
+}
+
+.btn_projetos{
+    text-decoration: none;
+    color: var(--cor-letras);
+    background-color: var(--bg-botao);
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.btn_projetos:hover {
+    background-color: var(--bg-outros);
+    color: var(--cor-letras-hover);
+}
+
+.projeto_secundario{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: var(--bg-outros);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.imagem_rodape{
+    height: 10em;
+}
+
+.rodape_contatos, .rodape_projetos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.titulo_rodape{
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn_rodape{
+    margin: 0.5em 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--cor-letras);
+}
+
+.btn_rodape:hover{
+    color: var(--cor-letras-hover);
+}
