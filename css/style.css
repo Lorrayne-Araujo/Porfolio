@@ -6,12 +6,17 @@
     --cor-letras-hover: #967e76;
     --bg-botao: #967e76;
     --cor-botao: white;
+    --barra-de-rolagem: #f4f4f4;
 }
 
 body {
     background-color: var(--bg-pagina);
     color: var(--cor-letras);
     font-family: var(--fonte);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--barra-de-rolagem);
 }
 
 /* Cabeçalho */
@@ -131,7 +136,6 @@ body {
     width: 16rem;
     height: 10rem;
     margin: 1em;
-    
 }
 
 .corpo_card {
