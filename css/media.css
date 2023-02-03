@@ -1,0 +1,127 @@
+@media screen and (max-width: 768px) {
+
+    /* CABECALHO */
+    .cabecalho_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho_imagem{
+        width: 5em;
+        margin-left: 1em;     
+    }
+
+    .cabecalho_menu_links{
+        display: flex;
+        margin-left: 15em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho_link:active{
+        color: var(--cor-letras-hover);
+    }
+
+    .menu_projetos{
+        font-size: 14px;
+    }
+
+    .menu_sobre{
+        width: 4.8em;
+        font-size: 14px;
+    }
+
+    .menu_contato{
+        font-size: 14px;
+    }
+
+    /* SOBRE */
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 10em  5em 6em;
+    }
+
+    .secao_sobre {
+        margin: 5em 0 5em 0.5em;
+    }
+
+    .titulo_sobre{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
+    
+    .texto_sobre{
+        margin: 0 8em 3em 0;
+        font-size: 18px;
+    }
+
+    .imagem_sobre{
+        width: 10em;
+        margin: 0;
+    }
+
+    /* PROJETOS */
+
+    .titulo_projetos {
+        font-size: 20px;
+    }
+
+    .projetos {
+        margin-left: 1em;
+    }
+
+    .tecnologia-utilizada{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icones_tecnologias{
+        font-size: 25px;
+    }
+
+    .projetos_realizados{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 4em;
+    }
+
+    .card {
+        width: 14rem;
+    }
+
+    .card_img-top{
+        width: 12rem;        
+    }
+
+    .corpo_card {
+        font-size: 14px;
+    }
+
+    /* Rodape */
+
+    .rodape {
+        align-items: center;
+    }
+
+    .imagem_rodape{
+        height: 4em;
+    }
+
+    .titulo_rodape{
+        font-size: 14px;
+    }
+
+    .btn_rodape{
+        font-size: 12px;
+    }
+}

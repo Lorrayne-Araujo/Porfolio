@@ -155,6 +155,8 @@ body {
     color: var(--cor-letras-hover);
 }
 
+/* Rodape */
+
 .rodape {
     background-color: var(--bg-outros);
     display: flex;
