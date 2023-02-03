@@ -50,7 +50,7 @@
 
     .projeto_principal {
         display: flex;
-        margin: 3em 0.5em;
+        margin: 3em 0;
     }
 
     .imagem_projetos {
@@ -74,5 +74,23 @@
 
     .btn_projetos {
         font-size: 8px;
+    }
+
+    /* Rodape */
+
+    .rodape {
+        align-items: center;
+    }
+
+    .imagem_rodape{
+        height: 4em;
+    }
+
+    .titulo_rodape{
+        font-size: 14px;
+    }
+
+    .btn_rodape{
+        font-size: 12px;
     }
 }
