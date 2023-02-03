@@ -59,7 +59,8 @@
     
     .texto_sobre{
         margin: 0 8em 3em 0;
-        font-size: 18px;
+        width: 100%;
+        font-size: 14px;
     }
 
     .imagem_sobre{
