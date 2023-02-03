@@ -74,6 +74,8 @@
 
     .btn_projetos {
         font-size: 8px;
+        padding: auto;
+        margin: auto;
     }
 
     /* Rodape */
