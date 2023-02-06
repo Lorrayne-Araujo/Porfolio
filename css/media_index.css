@@ -1,150 +1,19 @@
-@media screen and (max-width: 768px) {
-
-    /* CABECALHO */
-    .cabecalho_menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .cabecalho_imagem{
-        width: 5em;
-        margin-left: 1em;     
-    }
-
-    .cabecalho_menu_links{
-        display: flex;
-        margin-left: 15em;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .cabecalho_link:active{
-        color: var(--cor-letras-hover);
-    }
-
-    .menu_projetos{
-        font-size: 14px;
-    }
-
-    .menu_sobre{
-        width: 6em;
-        font-size: 14px;
-    }
-
-    .menu_contato{
-        font-size: 14px;
-    }
-
-    /* SOBRE */
-
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0 10em  5em 6em;
-    }
-
-    .secao_sobre {
-        margin-bottom: 5em;
-        text-align: center;
-    }
-
-    .titulo_sobre{
-        font-size: 22px;
-        font-weight: 700;
-        margin-bottom: 1em;
-    }
-    
-    .texto_sobre{
-        margin: 0 8em 3em 0;
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .imagem_sobre{
-        width: 10em;
-        margin: 0 10em;
-       
-    }
-
-    /* SECAO PROJETOS */
-
-    .titulo_projetos {
-        font-size: 20px;
-    }
-
-    .projetos {
-        margin-left: 1em;
-    }
-
-    .tecnologia-utilizada{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .icones_tecnologias{
-        font-size: 25px;
-    }
-
-    .projetos_realizados{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .card {
-        width: 14rem;
-    }
-
-    .card_img-top{
-        width: 12rem;        
-    }
-
-    .corpo_card {
-        font-size: 14px;
-    }
-
-    /* Rodape */
-
-    .rodape {
-        align-items: center;
-    }
-
-    .imagem_rodape{
-        height: 4em;
-    }
-
-    .titulo_rodape{
-        font-size: 14px;
-    }
-
-    .btn_rodape{
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
 
     body::-webkit-scrollbar-track {
         background-color: var(--barra-de-rolagem);
     }
 
     /* Cabecalho */
-    .cabecalho_imagem{
+    .cabecalho_imagem {
         width: 12em;
     }
 
-    .cabecalho_menu_links{
+    .cabecalho_menu_links {
         margin-right: 9em;
     }
 
-    .cabecalho_link{
+    .cabecalho_link {
         font-size: 28px;
     }
 
@@ -155,20 +24,20 @@
         margin-top: 1.5em;
     }
 
-    .titulo_sobre{
+    .titulo_sobre {
         font-size: 45px;
     }
 
-    .texto_sobre{
+    .texto_sobre {
         font-size: 30px;
     }
 
-    .botao_sobre{
+    .botao_sobre {
         padding: 1em;
         font-size: 25px;
     }
 
-    .imagem_sobre{
+    .imagem_sobre {
         margin-right: 10em;
         width: 20em;
     }
@@ -179,38 +48,176 @@
         font-size: 40px;
     }
 
-    .projetos_realizados{
+    .projetos_realizados {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }    
+    }
 
-    .card{
+    .card {
         width: 30rem;
         height: 40rem;
         margin-top: 3em;
     }
 
-    .card_img-top{
+    .card_img-top {
         width: 28rem;
         height: 15rem;
     }
-    
+
     .corpo_card {
         font-size: 28px;
     }
 
-    .texto_card{
-        margin-bottom: 6em ;
+    .texto_card {
+        margin-bottom: 6em;
     }
 
     /* Rodape */
 
-    .titulo_rodape{
+    .titulo_rodape {
         font-size: 28px;
     }
 
-    .btn_rodape{
+    .btn_rodape {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+
+    /* CABECALHO */
+    .cabecalho_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cabecalho_imagem {
+        width: 5em;
+        margin-left: 1em;
+    }
+
+    .cabecalho_menu_links {
+        display: flex;
+        margin-left: 15em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho_link:active {
+        color: var(--cor-letras-hover);
+    }
+
+    .menu_projetos {
+        font-size: 14px;
+    }
+
+    .menu_sobre {
+        width: 5em;
+        font-size: 14px;
+    }
+
+    .menu_contato {
+        font-size: 14px;
+    }
+
+    /* SOBRE */
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 3em;
+    }
+
+    .secao_sobre {
+        margin-bottom: 5em;
+        text-align: center;
+    }
+
+    .titulo_sobre {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
+
+    .texto_sobre {
+        margin: 0 8em 3em 0;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .botao_sobre {
+        padding: 0.5em;
+        font-size: 15px;
+    }
+
+    .imagem_sobre {
+        width: 10em;
+        margin: 0 10em;
+
+    }
+
+    /* SECAO PROJETOS */
+
+    .titulo_projetos {
+        font-size: 20px;
+    }
+
+    .projetos {
+        margin: 1em 3em;
+    }
+
+    .tecnologia-utilizada {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icones_tecnologias {
+        font-size: 25px;
+    }
+
+    .projetos_realizados {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 2em 0 4em;
+    }
+
+    .card {
+        width: 15em;
+        height: 25em;
+    }
+
+    .card_img-top {
+        width: 13em;
+    }
+
+    .corpo_card {
+        font-size: 10px;
+    }
+
+    /* Rodape */
+
+    .rodape {
+        align-items: center;
+    }
+
+    .imagem_rodape {
+        height: 3em;
+    }
+
+    .titulo_rodape {
+        font-size: 14px;
+    }
+
+    .btn_rodape {
+        font-size: 12px;
     }
 }

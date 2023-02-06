@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width:320px) and (max-width: 992px) {
 
     /* CABECALHO */
     .cabecalho_menu {
@@ -29,7 +29,7 @@
     }
 
     .menu_sobre {
-        width: 6em;
+        width: 5em;
         font-size: 14px;
     }
 
@@ -54,12 +54,12 @@
     }
 
     .imagem_projetos {
-        width: 15em;
-        height: 9em;
+        width: 8em;
+        height: 7em;
     }
 
     .conteudo_projetos {
-        margin: 0 3em;
+        margin: 0 1em;
     }
 
     .titulo_dos_projetos {
@@ -84,15 +84,24 @@
         align-items: center;
     }
 
-    .imagem_rodape{
-        height: 4em;
+    .imagem_rodape {
+        height: 3em;
     }
 
-    .titulo_rodape{
+    .titulo_rodape {
         font-size: 14px;
     }
 
-    .btn_rodape{
+    .btn_rodape {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    /* Projetos */
+
+    .conteudo_projetos {
+        margin: 0.5em 1em;
     }
 }
