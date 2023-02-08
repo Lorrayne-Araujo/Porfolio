@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) and (max-width: 992px) {
+@media screen and (min-width: 320px) and (max-width: 992px) {
 
     /* CABECALHO */
     .cabecalho_menu {
@@ -9,7 +9,7 @@
     }
 
     .cabecalho_imagem {
-        width: 5em;
+        width: 8em;
         margin-left: 1em;
     }
 
@@ -29,7 +29,7 @@
     }
 
     .menu_sobre {
-        width: 6em;
+        width: 3.5em;
         font-size: 14px;
     }
 
@@ -37,46 +37,38 @@
         font-size: 14px;
     }
 
-    /* Projetos */
+        /* SOBRE */
 
-    .projetos {
-        margin: 3em;
-    }
-
-    .titulo_projetos {
-        font-size: 25px;
-        margin-bottom: 0.5em;
-    }
-
-    .projeto_principal {
-        display: flex;
-        margin: 3em 0;
-    }
-
-    .imagem_projetos {
-        width: 8em;
-        height: 7em;
-    }
-
-    .conteudo_projetos {
-        margin: 0 1em;
-    }
-
-    .titulo_dos_projetos {
-        font-size: 18px;
-        width: 7em;
-    }
-
-    .texto_projetos {
-        font-size: 14px;
-        margin-bottom: 2em;
-    }
-
-    .btn_projetos {
-        font-size: 8px;
-        padding: auto;
-        margin: auto;
-    }
+        .sobre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 1em 3em;
+        }
+    
+        .secao_sobre {
+            margin-bottom: 1em;
+            text-align: center;
+        }
+    
+        .titulo_sobre {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 1em;
+        }
+    
+        .texto_sobre {
+            margin: 0 8em 3em 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    
+    
+        .imagem_sobre {
+            width: 10em;
+            margin:0 10em 5em 10em;
+        }
 
     /* Rodape */
 
@@ -116,11 +108,24 @@
         font-size: 28px;
     }
 
-    
-    /* Projetos */
+    /* Sobre mim */
 
-    .conteudo_projetos {
-        margin: 0.5em 1em;
+    .secao_sobre {
+        justify-content: flex-start;
+        margin-top: 1.5em;
+    }
+
+    .titulo_sobre {
+        font-size: 35px;
+    }
+
+    .texto_sobre {
+        font-size: 30px;
+    }
+
+    .imagem_sobre {
+        margin-right: 8em;
+        width: 15em;
     }
 
     /* Rodape */

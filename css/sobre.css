@@ -19,6 +19,8 @@ body::-webkit-scrollbar-track {
     background-color: var(--barra-de-rolagem);
 }
 
+/* Cabeçalho */
+
 .cabecalho {
     margin: 0;
 }
@@ -50,59 +52,30 @@ body::-webkit-scrollbar-track {
     color: var(--cor-letras-hover);
 }
 
-/* Projetos */
+/* Sobre mim */
 
-.projetos {
-    margin: 5em;
-    text-align: center;
-}
-
-.titulo_projetos{
-    font-size: 35px;
-    font-weight: 600;
-    margin-bottom: 1.5em;
-}
-
-.projeto_principal{
+.sobre{
     display: flex;
-    margin: 10em 1em;
+    margin: 10em;
 }
 
-.imagem_projetos{
-    width: 25em;
+.secao_sobre {
+    margin-top: 5em;
 }
 
-.conteudo_projetos{
-    margin: 0 10em;
+.titulo_sobre{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1em;
 }
 
-.titulo_dos_projetos{
-    font-size: 25px;
-    margin-bottom: 1.5em;
-}
-
-.texto_projetos{
-    margin-bottom: 5em;
+.texto_sobre{
+    margin-right: 2em;
     font-size: 20px;
 }
 
-.btn_projetos{
-    text-decoration: none;
-    color: var(--cor-letras);
-    background-color: var(--bg-botao);
-    margin: 0.5em;
-    padding: 1em;
-    border-radius: 5px;
-}
-
-.btn_projetos:hover {
-    background-color: var(--bg-outros);
-    color: var(--cor-letras-hover);
-}
-
-.projeto_secundario{
-    display: flex;
-    flex-direction: row-reverse;
+.imagem_sobre{
+    width: 20em;
 }
 
 /* Rodape */

@@ -1,10 +1,10 @@
 :root {
-    --bg-pagina: #D7C0AE;
+    --bg-pagina: #5B8FB9;
     --cor-letras: white;
-    --bg-outros: #B7C4CF;
+    --bg-outros: #2C74B3;
     --fonte: 'Times New Roman', Times, serif;
-    --cor-letras-hover: #967e76;
-    --bg-botao: #967e76;
+    --cor-letras-hover: black;
+    --bg-botao: #2C74B3;
     --cor-botao: white;
     --barra-de-rolagem: #f4f4f4;
 }
@@ -42,7 +42,7 @@ body::-webkit-scrollbar-track {
 
 .cabecalho_link{
     margin: 1em;
-    font-size: 20px;
+    font-size: 28px;
     text-decoration: none;
     color: var(--cor-letras);
     font-weight: 600;
@@ -162,7 +162,7 @@ body::-webkit-scrollbar-track {
 /* Rodape */
 
 .rodape {
-    background-color: var(--bg-outros);
+    background-image: linear-gradient(to bottom, var(--bg-pagina), var(--bg-outros));
     display: flex;
     justify-content: space-evenly;
     padding: 2em;
